@@ -1,0 +1,69 @@
+html,
+body,
+#view-div {
+    padding: 0;
+    margin: 0;
+    max-height: 270px;
+    height: 45vh;
+    width: 100%;
+}
+
+#arrow-selector {
+    overflow: auto;
+    height: fit-content;
+    width: 100%;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#north-arrow {
+    height: 100px;
+    width: 100px;
+    padding: 6px;
+}
+
+#north-arrow>img {
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-block {
+    text-align: left;
+    width: calc(100%-30px);
+    max-width: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#arrows {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: visible;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.arrow {
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+}
+
+.arrow>img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.section-header-line {
+    width: 80px;
+    height: 4px;
+    margin: 30px auto 30px;
+    background-color: black;
+    border-radius: 2px;
+}
